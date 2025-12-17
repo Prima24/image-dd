@@ -199,7 +199,7 @@ def create_config(task_id, model_path, model_name, model_type, expected_repo_nam
         235: {
             "network_dim": 64,
             "network_alpha": 64,
-            "network_args": ["conv_dim=8", "conv_alpha=8", "dropout=null"]
+            "network_args": ["conv_dim=4", "conv_alpha=4", "dropout=null"]
         },
         456: {
             "network_dim": 128,
@@ -209,12 +209,12 @@ def create_config(task_id, model_path, model_name, model_type, expected_repo_nam
         467: {
             "network_dim": 128,
             "network_alpha": 128,
-            "network_args": ["conv_dim=8", "conv_alpha=8", "dropout=null"]
+            "network_args": ["conv_dim=4", "conv_alpha=4", "dropout=null"]
         },
         699: {
             "network_dim": 192,
             "network_alpha": 192,
-            "network_args": ["conv_dim=8", "conv_alpha=8", "dropout=null"]
+            "network_args": ["conv_dim=4", "conv_alpha=4", "dropout=null"]
         },
     }
 
