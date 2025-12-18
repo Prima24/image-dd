@@ -192,29 +192,29 @@ def create_config(task_id, model_path, model_name, model_type, expected_repo_nam
 
     config_mapping = {
         228: {
-            "network_dim": 320,
-            "network_alpha": 160,
+            "network_dim": 512,
+            "network_alpha": 256,
             "network_args": []
         },
         235: {
-            "network_dim": 320,
-            "network_alpha": 160,
-            "network_args": ["conv_dim=4", "conv_alpha=4", "dropout=null"]
+            "network_dim": 512,
+            "network_alpha": 256,
+            "network_args": ["conv_dim=32", "conv_alpha=32", "dropout=null"]
         },
         456: {
-            "network_dim": 640,
-            "network_alpha": 320,
+            "network_dim": 1024,
+            "network_alpha": 512,
             "network_args": []
         },
         467: {
-            "network_dim": 640,
-            "network_alpha": 320,
-            "network_args": ["conv_dim=4", "conv_alpha=4", "dropout=null"]
+            "network_dim": 1024,
+            "network_alpha": 512,
+            "network_args": ["conv_dim=32", "conv_alpha=32", "dropout=null"]
         },
         699: {
-            "network_dim": 960,
-            "network_alpha": 480,
-            "network_args": ["conv_dim=4", "conv_alpha=4", "dropout=null"]
+            "network_dim": 1024,
+            "network_alpha": 512,
+            "network_args": ["conv_dim=32", "conv_alpha=32", "dropout=null"]
         },
     }
 
